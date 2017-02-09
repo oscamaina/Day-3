@@ -1,0 +1,92 @@
+html, body {
+  font: 13px;
+  font-family: Arial, sans-serif
+  color: #404040;
+  background: #fff;
+  background-image: url("bg.png");
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-color: rgb(255,255,255);
+  position: absolute;
+}
+h1 {
+	font-family: 'Open Sans', 
+	sans-serif; 
+	font-size:38px; 
+	color:#555557;
+}
+.container {
+  margin: 80px 300px auto;
+  width: 640px;
+  position: relative;
+  min-height: 100%;
+}
+#form1{
+	box-shadow: 0px 1px 1px 1px #c6c1c1;
+	background:#f7f7f7;
+}
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  color: gray;
+
+}
+
+.login h1 {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+}
+.login p {
+  margin: 20px 0 0;
+}
+.login input[type=text], .login input[type=password] {
+  width: 278px;
+  height: 36px;
+  display: inline-block;
+  padding: 0 8px;
+  margin: 0;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  border-radius: 1px;
+  font-size: 15px;
+  color: #404040;
+}
+.login p.rem {
+  float: left;
+  line-height: 31px;
+}
+.login p.rem label {
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+.login p.rem input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.login p.submit {
+	text-align: right;
+	float: center;
+	position: relative;
+}
+p a{ 
+	color:#498af2;
+	text-decoration:none; 
+}
